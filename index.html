@@ -1,0 +1,39 @@
+<style>
+.first{
+    background:yellow;
+    /* flex-basis: 100px; */
+    flex: 1;
+    overflow: auto;
+}
+.second{
+    background:orange;
+    /* flex: 1; */
+    flex-basis: 100px;
+}
+.gripper{
+    background:red;    
+}
+.root{
+    height: 50%;
+    background: #ff0096;
+}
+.splitter{
+    background: gray;
+    /* padding:30px; */
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
+html,body{
+    margin: 0px;
+    background: green;
+}
+
+</style>
+<div class="root">
+    <div class="splitter">
+        <div class="first">first<br>first2</div>
+        <div class="gripper">gripper</div>
+        <div class="second">second</div>
+    </div>    
+</div>
